@@ -1,6 +1,14 @@
 collections:
-  - education
-  - experience
+  education:
+    sort_by: start
+  experience:
+    sort_by: start
 
 theme: jekyll-theme-cayman
 title: Joe Irving
+email: joe@irving.me.uk
+description: >-
+  Personal CV
+url: "http://joe.irving.me.uk"
+
+permalink: pretty
