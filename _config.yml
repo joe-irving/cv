@@ -2,9 +2,5 @@ collections:
   - education
   - experience
 
-<<<<<<< HEAD
-title: Joe Irving CV
-email: joeirving.jbi@gmail.com
-=======
 theme: jekyll-theme-hacker
->>>>>>> 242529d341cebd0e253e66ef4e2ac615d6b44975
+title: Joe Irving
