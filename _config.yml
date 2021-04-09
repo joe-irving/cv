@@ -1,3 +1,5 @@
 collections:
   - education
   - experience
+
+theme: jekyll-theme-hacker
