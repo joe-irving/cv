@@ -1,0 +1,9 @@
+<ul>
+  {% for item in site.education %}
+    <li>
+      <h1><strong>{{ item.title }}</strong> / {{ item.level }}</h1>
+      <p><time>{{item.start}}</time> - <time>{{item.end}}</time> {{ item.location }}</p>
+      {{ item.content }}
+    </li>
+  {% endfor %}
+</ul>
