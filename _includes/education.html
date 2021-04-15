@@ -1,9 +1,5 @@
-<ul>
-  {% for item in site.education %}
-    <li>
-      <h1><strong>{{ item.title }}</strong> / {{ item.level }}</h1>
-      <p><time>{{item.start}}</time> - <time>{{item.end}}</time> {{ item.location }}</p>
-      {{ item.content }}
-    </li>
-  {% endfor %}
-</ul>
+{% for item in site.education | sort "start" | reverse %}
+    <h2><strong>{{ item.title }}</strong> / {{ item.level }}</h2>
+    <p><time>{{item.start}}</time> - <time>{{item.end}}</time> {{ item.location }}</p>
+    {{ item.content }}
+{% endfor %}

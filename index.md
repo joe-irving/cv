@@ -21,10 +21,10 @@ I can use the following programming languages:
 * Markdown, moderate ability.
 
 I can - and do - create and manage websites. For example:
-* [Axe Drax](axedrax.ga)
-* [Woodcraft Folk DFs](spanthat.world)
-* [My CV](joe.irving.me.uk)
-* [Extinction Rebellion Youth](xryouth.uk)
+* [Axe Drax](http://axedrax.ga)
+* [Woodcraft Folk DFs](http://spanthat.world)
+* [My CV](http://joe.irving.me.uk)
+* [Extinction Rebellion Youth](http://xryouth.uk)
 
 I have been MEST-UP (Mediation and  Education Support Team Umbrella Project) trained with Woodcraft Folk DFs. MEST-UP trained individuals look after the mental wellbeing of participants of DF Events.
 

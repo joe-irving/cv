@@ -1,9 +1,7 @@
-<ul>
-  {% for item in site.experience %}
-    <li>
-      <h1><strong>{{ item.title }}</strong> / {{ item.type }}</h1>
-      <p><time>{{item.start}}</time> - <time>{{item.end}}</time> {{ item.location }}</p>
+<section>
+  {% for item in site.experience | sort "start" | reverse %}
+      <h2><strong>{{ item.title }}</strong> / {{ item.type }}</h2>
+      <p><em><time>{{item.start}}</time> - <time>{{item.end}}</time> {{ item.location }}</em></p>
       {{ item.content }}
-    </li>
   {% endfor %}
-</ul>
+</section>

@@ -1,13 +1,12 @@
 collections:
-  education:
-    sort_by: start
-  experience:
-    sort_by: start
+  - education
+  - experience
 
 theme: jekyll-theme-cayman
+
 title: Joe Irving
 email: joe@bicycle.ga
 description: CV
-url: "joe.irving.me.uk"
+url: joe.irving.me.uk
 
 permalink: pretty
