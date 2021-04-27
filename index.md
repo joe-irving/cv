@@ -12,7 +12,7 @@ title: CV
 
 # Skills
 
-I am able in Word, Google Docs and Outlook
+I am able in Word, Google Docs and Outlook.
 
 I can use the following programming languages:
 * Python, moderate ability (see ARM Work Experience);
