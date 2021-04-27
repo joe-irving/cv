@@ -1,6 +1,9 @@
 ---
 title: CV
+pdf: true
 ---
+
+[Download PDF]({{  page.pdf_url }})
 
 # Education
 
