@@ -2,13 +2,22 @@ collections:
   - education
   - experience
 
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 
 title: Joe Irving
 email: joe@bicycle.ga
 description: CV
 url: joe.irving.me.uk
 
+plugins:
+  - jekyll-pdf
+  - jekyll-assets
+
 repository: joe-irving/joe-irving.github.io
 
 permalink: pretty
+
+pdf:
+  cache: .asset-cache
+  page_size: A4
+  layout: pdf

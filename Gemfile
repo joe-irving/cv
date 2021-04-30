@@ -4,8 +4,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 
 group :jekyll_plugins do
-  gem 'jekyll-sitemap'
-  gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
-  gem 'jekyll-pdf'
+  gem 'jekyll-pdf', :git => 'git://github.com/mneumegen/jekyll-pdf', :branch => 'master'
+  gem "jekyll-assets"
 end
